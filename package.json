@@ -1,0 +1,17 @@
+{
+  "name": "immutable-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./api && typedoc --out ./api --includeDeclarations --theme minimal ./node_modules/immutable/dist/Immutable.d.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brent Burgoyne",
+  "license": "MIT",
+  "devDependencies": {
+    "immutable": "2.0.17",
+    "typedoc": "^0.1.1"
+  }
+}
