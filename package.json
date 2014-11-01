@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./api && typedoc --out ./api --includeDeclarations ./node_modules/immutable/dist/immutable.d.ts",
+    "build": "rm -rf ./api && typedoc --out ./api --includeDeclarations --theme minimal ./node_modules/immutable/dist/immutable.d.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brent Burgoyne",
